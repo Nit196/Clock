@@ -1,0 +1,50 @@
+#MainContainer
+{
+    position: relative;
+    width:40vw;
+    height: 40vw;
+    margin: auto;
+    background: url(image.png) no-repeat;
+    background-size: 100%;
+   
+}
+
+#hour,#minute,#second
+{
+    position: absolute;
+    background: black;
+    border-radius: 15px;
+    transform-origin: bottom;
+}
+
+#hour
+{    width: 1.3%;
+    height: 21%;
+    top: 29%;
+    left: 49%;
+  
+    
+}
+
+   
+    #minute
+{
+     width: 0.8%;
+    height: 30%;
+    top: 20%;
+    left: 49%;
+    
+}
+    
+
+    
+ 
+
+
+#second
+{ width: 0.8%;
+    height: 35%;
+    top: 15%;
+    left: 49%;
+}
+   
